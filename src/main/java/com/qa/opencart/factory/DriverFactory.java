@@ -69,7 +69,7 @@ public class DriverFactory {
 				}
 		else
 		{
-			System.out.println("Please pass the right browser"+ browserName);
+			System.out.println("Please pass the right browser name"+ browserName);
 			throw new FrameworkException("NO BROWSER FOUND EXCEPTION....");
 		}
 		
